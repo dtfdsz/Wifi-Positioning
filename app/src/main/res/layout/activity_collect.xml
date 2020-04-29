@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pic2"
+    >
+    <!--android:background="@drawable/pic2"-->
+    <RelativeLayout
+        android:id="@+id/ll_touch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/requirment"
+        />
+        <EditText
+            android:id="@+id/posText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+            <Button
+                android:id="@+id/buttonrt"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/star_button_select"
+
+                android:textSize="10dp"
+                android:text="Return" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

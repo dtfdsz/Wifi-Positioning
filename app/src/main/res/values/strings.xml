@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wi-Fi_Scanner_IIoT</string>
+    <string name="action_settings">Settings</string>
+    <string name="requirment">Please choose your location on the map</string>
+    <string name="requirment1">Press the right bottom button to know your position</string>
+    <string name="helloworld">Current Position,Signal Strength</string>
+</resources>
